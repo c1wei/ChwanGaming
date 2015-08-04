@@ -1,1 +1,10 @@
-Hello World Alex chwan was here
+var main = (function() {
+
+
+	sample = function(){
+		console.log("this button works!");
+	}
+
+})();
+
+$(document).ready(main)
