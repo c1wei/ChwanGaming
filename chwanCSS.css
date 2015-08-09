@@ -8,8 +8,14 @@ html, .body {
 	text-align:left;
 	margin: 20px auto 20px auto;
 	width:910;
-	
-	
+		
+}
+
+.sampleTree{
+	position: relative;
+	height: 10%;
+	width: 10%;
+	z-index: 1;
 }
 
 .toolBar{
