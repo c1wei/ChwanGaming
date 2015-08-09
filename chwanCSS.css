@@ -12,7 +12,8 @@ html, .body {
 }
 
 .toolbar{
-	position: relative;
+	position: absolute;
+	top: -100px;
 }
 
 .topGreenBar{
@@ -43,24 +44,60 @@ html, .body {
 	position: absolute;
 	top: 35px;
 	z-index: 3;
-	width: 22%;
-	height: 20%;
+	width: 350px;
+	height: 170px;
+	left: 20px;
 
 }
 
 .sampleTree1{
 	position: relative;
-	top: 500px;
-	height: 10%;
-	width: 10%;
+	top: 550px;
+	height: 325px;
+	width: 200px;
+	z-index: 2;
+}
+
+
+.sampleTree2{
+	position: relative;
+	top: 400px;
+	height: 325px;
+	width: 160px;
+	left: 40px;
+	z-index: 2;
+}
+
+.sampleTree3{
+	position: relative;
+	top: 350px;
+	height: 195px;
+	width: 120px;
+	left: -90px;
 	z-index: 1;
 }
 
+.sampleTree4{
+	position: relative;
+	top: 550px;
+	height: px;
+	width: 200px;
+	left: -370px;
+	z-index: 1;
+}
+.stump1{
+	position: absolute;
+	bottom: 50px;
+	left: 420px;
+	height: 100px;
+	width: 75px;
+	z-index: 2;
+}
 
 .greenBox{
 	position: absolute;
 	background-color: #75B37A;
 	width: 100%;
-	height: 350px;
+	height: 450px;
 	bottom: 0px;
 }
