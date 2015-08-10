@@ -1,0 +1,13 @@
+html, .body {
+	background-image: url('image/bg.png');
+	color: #519A57;
+	background:#EB9B58;
+	font-size:87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height:1.5;
+	text-align:left;
+	margin: 20px auto 20px auto;
+	width:910;
+		
+}
+
